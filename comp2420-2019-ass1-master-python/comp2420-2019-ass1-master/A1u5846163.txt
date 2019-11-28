@@ -1,0 +1,70 @@
+                     ==============================
+                       COMP2420, Semester 1, 2019
+                         Assignment 1 Mark Sheet
+                     ==============================
+
+=======================================================
+  Uni Id  | Lab Group  | Tutor
+=======================================================
+ u5846163    thu13-15a   Alexei Khorev
+=======================================================
+
+Gitlab Repo : u5846163/comp2420-2019-ass1
+
+Markers
+-------
+
+Load data and explore: Alexei, Cecilia
+Data analysis [Q1-Q3]: James, Paige
+Data analysis [Q4-Q5]: Cody, Xu
+Linear regression: Alex
+
+Marks
+=====
+
+========================================
+ Load Data                    :   4/5 
+ Exploratory Data Analysis    :   15/15
+
+ Data Analysis
+   Q1                         :   10 /10
+   Q2                         :   10 /10
+   Q3                         :   15 /15
+   Q4                         :    4/6
+   Q5                         :    14/14
+
+ Linear Regression            :    24/25
+
+ Penalty (if any)             :    /100
+========================================
+   Total (max 100)            :  96
+========================================
+
+
+Feedback
+========
+
+Load Data and Exploratory Data Analysis
+---------------------------------------
+
+load and head ok, df adjustment is basic, insufficient; avoid
+splitting df
+
+EDA has partial (sufficient) DS (describe and cross-corr also provided), 
+3 plots for cnt-vs-time for 3 diff. rider categories allow for insight 
+which can also be reliably studied in further questions. Other plots
+give more convincing EDA. Discussion is good.
+
+
+Data Analysis
+-------------
+Q4: Answer can be improved by providing more non-trivial relationships or improving the quality of existing analysis.
+Q5: There are only few visual supports for the analysis. However, the student demonstrated the deep understanding of data analysis.
+
+Linear Regression
+-----------------
+Your Linear Regression section is outstanding. The only issue is that the scores
+provided (R^2 and MSE) are not accurate as you are using the same data for fitting
+and testing, which results in a lack of independence between the two actions. To
+fit this with your current analysis, you would have to create a separate model with data split to fit and test respectively.
+Other than that, this was excellent.

@@ -1,0 +1,105 @@
+                     ==============================
+                       COMP2420, Semester 1, 2019
+                         Assignment 2 Mark Sheet
+                     ==============================
+
+=======================================================
+  Uni Id  | Lab Group  | Tutor                  
+=======================================================
+ u6894190   wed13-15     Cody Christopher
+ u6871331   wed09-11b    Cecilia Lao
+ u5846163   SocSci       
+=======================================================
+
+Group Number : A2Grp61
+
+Gitlab Repo : gitlab.cecs.anu.edu.au:u5846163/comp2420-2019-ass2
+
+Markers
+-------
+
+Database Management: Cody Christopher
+Data Acquisition: Alexei Khorev
+Machine Learning:
+  Short answers and k-means: Hanif Rasyidi
+  Classification: Xu Wang
+Decision Trees: Harshit Trivedi
+
+Marks
+=====
+
+========================================
+ Database Management 
+   Q1                         :    2.5/3
+   Q2                         :    3/3
+   Q3                         :    4/4
+   Q4                         :    2/5
+
+ Data Acquisition             :    16/20
+
+ Machine Learning
+   Short Answers
+   Q1.1.1                     :    4/4
+   Q1.1.2                     :    3/4
+
+   K-Means Clustering
+   Q1.2.1                     :    13/15
+   Q1.2.2                     :    2/2
+
+   Classification
+   Q2.1                       :    25/25
+   Q2.2                       :    5/5
+
+ Decision Trees
+   Q1                         :    3/3
+   Q2                         :    3/3
+   Q3                         :    4/4
+
+ Penalty (if any)             :    /100 
+========================================
+   Total (max 100)            :  89.5
+========================================
+
+
+Feedback
+========
+
+Database Management
+-------------------
+q1 col name imprecise.
+q4 doesnt consider store_id. will find
+anyone who has borrowed more than once
+from anywhere.
+
+
+Data Acquisition
+----------------
+
+exec failed (time out), trying by hand --  single plain query with
+substantial pandas DF adjustment
+
+Machine Learning
+----------------
+Short Answers and K-Means
+.........................
+Even with random initialization, kmeans might still produce same input if the data distribution is heavily clustered
+
+Need a better legend and explanation in the kmeans plot so it is not ends up only as 'a plot of colorful dots'. Plot it based on the attribute combination might produce a better representation.
+
+Need a better justification why chose the number of k other than visual cue
+
+
+
+Classification
+..............
+Model: (18)
+Justification: (7)
+Short Answer: (5)
+
+
+
+Decision Trees
+--------------
+1. Correct!
+2. Correct. Well-documented workflow.
+3. Correct.
